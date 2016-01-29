@@ -23,6 +23,9 @@ class MyWindow(QtGui.QMainWindow):
         self.show()
 
     def run_command(self):
+        # Note: toPlainText returns a QString which you cannot feed the shell
+        # with it or you'll get the error:
+        # CalledProcessError: Command 'XXX' returned non-zero exit status 127
         command = str(self.cmd_pte.toPlainText())
         # Note that shell=True is a very unsafe thing to do, but also easy
         try:
