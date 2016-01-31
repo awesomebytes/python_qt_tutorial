@@ -183,15 +183,22 @@ Now you'll get all the possible autocompletion and documentation available (won'
 You'll need to recreate the `my_gui_class.py` every time you change the `my_gui.ui` file.
 
 # Examples
-TODO
 
 ## Run a shell command and retrieve its output
+See `command_runner/command_runner.py`..
 
 ## Show a loading bar meanwhile doing something
+See `command_runner/command_runner_progressbar.py` for an extension of `command_runner/command_runner.py` that shows a progress bar while running a command.
+
+## Show Error/Warning popup
+See `other_examples/error_window.py`.
 
 ## Real time plot
+TODO
 
 ## Create a rqt_gui plugin
+TODO
 
 ## Generate dynamically GUI fields
+TODO
 
