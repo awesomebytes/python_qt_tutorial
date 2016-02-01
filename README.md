@@ -23,7 +23,7 @@ Save the file as `my_gui.ui`.
 ## Script the behaviour
 Open your favorite editor (I recommend Sublime Text with Anaconda IDE plugin) and paste:
 
-````
+````python
 #!/usr/bin/env python
 
 import sys
@@ -58,7 +58,7 @@ But we want the GUI to do stuff. So we need to connect buttons to actions.
 
 Once you learn how Qt works you can just google for methods and so and you'll end up with something like:
 
-````
+````python
 #!/usr/bin/env python
 
 import sys
@@ -101,7 +101,7 @@ And load your file
 And after hitting enter again, you'll see the window and you'll be able to do introspection about everything available.
 
 A trick for not needing to do this commenting/deleting line is to modify the code with:
-````
+````python
 #!/usr/bin/env python
 
 import sys
@@ -151,7 +151,7 @@ Execute it with your ui file
 
 And now your code should be changed to:
 
-````
+````python
 #!/usr/bin/env python
 
 import sys
