@@ -15,9 +15,11 @@ Fire up Qt designer
     designer-qt4
 
 Choose `Main Window` on the New form dialogue (File > New...).
+
 ![New form dialogue](screenshots/qtdesigner1.png)
 
 Add a `PushButton` and a `Label` from the left column menu (Widget Box). Change the name of the elements on the top right menu (Object Inspector), `my_button` and `my_label` are good enough names.
+
 ![Add elements](screenshots/qtdesigner2.png)
 
 Save the file as `my_gui.ui`.
@@ -55,6 +57,7 @@ And we can execute it
      ./my_gui.py
 
 and you have a GUI showing stuff!
+
 ![First GUI](screenshots/my_gui.png)
 
 But we want the GUI to do stuff. So we need to connect buttons to actions.
@@ -95,26 +98,32 @@ See `Extras` for more on that.
 
 ## Run a shell command and retrieve its output
 See `command_runner/command_runner.py`.
+
 ![Command runner](screenshots/command_runner.png)
 
 ## Show a loading bar meanwhile doing something
 See `command_runner/command_runner_progressbar.py` for an extension of `command_runner/command_runner.py` that shows a progress bar while running a command.
+
 ![Command runner progressbar](screenshots/command_runner_progressbar.png)
 
 ## Show Error/Warning popup
 See `other_examples/error_window.py`.
+
 ![Error window](screenshots/error_window.png)
 
 ## Choose a file
 See `other_examples/choose_file.py`.
+
 ![Choose file](screenshots/choose_file.png)
 
 ## Choose a folder
 See `other_examples/choose_folder.py`.
+
 ![Choose folder](screenshots/choose_folder.png)
 
 ## Using a dropdown/combo_box
 See `other_examples/generate_dropdown.py`.
+
 ![Dropdown example](screenshots/dropdown.png)
 
 ## Generate dynamically GUI fields
