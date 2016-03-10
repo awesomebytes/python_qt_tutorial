@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-Choose folder example.
+Playing with a dropdown / combo_box.
 Author: Sammy Pfeiffer
 """
 
