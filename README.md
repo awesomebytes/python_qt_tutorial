@@ -193,12 +193,19 @@ See `command_runner/command_runner_progressbar.py` for an extension of `command_
 ## Show Error/Warning popup
 See `other_examples/error_window.py`.
 
+## Choose a file
+See `other_examples/choose_file.py`.
+
+## Choose a folder
+See `other_examples/choose_folder.py`.
+
+## Generate dynamically GUI fields
+See `other_examples` folder, they aren't using any .ui file.
+
 ## Real time plot
 TODO
 
 ## Create a rqt_gui plugin
 TODO
 
-## Generate dynamically GUI fields
-TODO
 
