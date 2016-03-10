@@ -199,6 +199,9 @@ See `other_examples/choose_file.py`.
 ## Choose a folder
 See `other_examples/choose_folder.py`.
 
+## Using a dropdown/combo_box
+See `other_examples/generate_dropdown.py`.
+
 ## Generate dynamically GUI fields
 See `other_examples` folder, they aren't using any .ui file.
 
