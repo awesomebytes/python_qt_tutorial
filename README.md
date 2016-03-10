@@ -9,6 +9,8 @@ iPython is optional but recommended:
 
     sudo apt-get install ipython
 
+You may want a proper editor for Python, here you have a guide on how to setup **Sublime Text** or **PyCharm** [My development environment](https://gist.github.com/awesomebytes/c932b2502fab32d0c8bb).
+
 ## Design the GUI
 Fire up Qt designer
 
