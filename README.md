@@ -64,7 +64,7 @@ and you have a GUI showing stuff!
 
 But we want the GUI to do stuff. So we need to connect buttons to actions.
 
-Once you learn how Qt works you can just google for methods and so and you'll end up with something like:
+Once you learn how Qt works you can just google for methods (the [official Qt4 documentation](http://doc.qt.io/qt-4.8/) is for C++ but the methods are the same in Python) and so and you'll end up with something like:
 
 ````python
 #!/usr/bin/env python
